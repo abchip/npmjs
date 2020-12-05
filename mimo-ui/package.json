@@ -1,0 +1,26 @@
+{
+  "name": "mimo-ui",
+  "version": "0.1.0",
+  "description": "ABChip.net UI API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "tslint -p tsconfig.json",
+    "build": "webpack --env=production",
+	"module": "webpack --env=production --env=module",
+	"standalone": "webpack --env=production --env=module --env=standalone"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abchip/npmjs.git"
+  },
+  "homepage": "https://github.com/abchip/npmjs",
+  "author": "“ABChip <“dev@abchip.it”> (“http://www.abchip.net”)",
+  "license": "MIT",
+  "dependencies": {
+    "@types/mini-css-extract-plugin": "^1.2.1",
+    "mini-css-extract-plugin": "^1.3.2",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
